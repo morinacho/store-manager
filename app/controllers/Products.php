@@ -1,9 +1,9 @@
 <?php   
 
-	class Users extends Controller{
+	class Products extends Controller{
 		
 		public function __construct(){
-			$this->view("users/index");
+			$this->view("products/index");
 		}
 
 		public function index(){}
