@@ -2,7 +2,7 @@
 
 	class Home extends Controller{
 		
-		public function __construct() {
+		public function __construct(){
 			$this->view('index');
 		}
 

@@ -3,7 +3,7 @@
 	define('DB_HOST', 'localhost');
 	define('DB_USER', 'root');
 	define('DB_PASSWORD', '');
-	define('DB_NAME', 'test');
+	define('DB_NAME', 'adminshop');
 	
 	# App route
 	define('APP_ROUTE', dirname(dirname(__FILE__)));

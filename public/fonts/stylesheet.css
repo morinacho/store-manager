@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Bro Rintto';
+    src: url('BroRinttoRegular.eot');
+    src: url('BroRinttoRegular.eot?#iefix') format('embedded-opentype'),
+        url('BroRinttoRegular.woff2') format('woff2'),
+        url('BroRinttoRegular.woff') format('woff'),
+        url('BroRinttoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

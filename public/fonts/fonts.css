@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Opinio';
+    src: url('Opinio/OpinioRegular.eot');
+    src: url('Opinio/OpinioRegular.eot?#iefix') format('embedded-opentype'),
+         url('Opinio/OpinioRegular.woff2') format('woff2'),
+         url('Opinio/OpinioRegular.woff') format('woff'),
+         url('Opinio/OpinioRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BroRintto';
+    src: url('BroRintto/BroRinttoRegular.eot');
+    src: url('BroRintto/BroRinttoRegular.eot?#iefix') format('embedded-opentype'),
+         url('BroRintto/BroRinttoRegular.woff2') format('woff2'),
+         url('BroRintto/BroRinttoRegular.woff') format('woff'),
+         url('BroRintto/BroRinttoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

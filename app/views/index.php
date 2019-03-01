@@ -1,3 +1,7 @@
-<?php require_once APP_ROUTE . '/views/modules/header.php'; ?>
+<?php 
 
-<?php require_once APP_ROUTE . '/views/modules/footer.php'; ?>
+	require_once APP_ROUTE . '/views/modules/header.php'; 
+	require_once APP_ROUTE . '/views/modules/home.php';
+	require_once APP_ROUTE . '/views/modules/footer.php'; 
+
+?>

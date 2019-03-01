@@ -10,15 +10,13 @@
 		<link rel="stylesheet" href="<?php echo URL_ROUTE ?>/css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="<?php echo URL_ROUTE ?>/css/bootstrap-reboot.min.css">
 		<link rel="stylesheet" href="<?php echo URL_ROUTE ?>/css/style.css">
+		<link rel="stylesheet" href="<?php echo URL_ROUTE ?>/fonts/fonts.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<header>
 				<?php require_once APP_ROUTE . '/views/modules/nav.php'; ?>
-			</header>
-			<div class="row">
-
-			</div>
-
+			</header>	
 		</div>
-		
+		<div class="container">
+				

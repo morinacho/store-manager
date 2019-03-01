@@ -12,19 +12,19 @@
 
 		<!-- Menu -->
 		<ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
-			<li class="nav-item active">
+			<li class="nav-item ml-3 active">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>">Home<span class="sr-only">(current)</span></a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item ml-3">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>products">Productos</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item ml-3">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>sales">Ventas</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item ml-3">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>users">Clientes</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item ml-3">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>orders">Encargos</a>
 			</li>
 		</ul>
