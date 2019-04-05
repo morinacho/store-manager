@@ -9,8 +9,22 @@
 			<form action="<?php echo URL_ROUTE ?>users/store" method="post"  enctype="multipart/form" target="_top">
 				<div class="modal-body row">
 					<div class="col-6">
+					<div class="form-group">
+							<div class="input-group mb-2">
+								<select class="form-control" id="product-category" name="product-category">
+									<option selected disabled>Categoria</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+								<div class="input-group-prepend">
+									<div class="input-group-text"><a href="javascript:void(0);" class="material-icons text-decoration-none" data-toggle="modal" data-target="#create-product">add</a> </div>
+								</div>
+							</div>	
+						</div>	 
 						<div class="form-group">
-							<input type="text" class="form-control" id="product-name" name="product-name" placeholder="Nombre">
+							<input type="text" class="form-control" id="product-name" name="product-name" placeholder="Tipo de producto">
 						</div>
 						<div class="form-group"> 
 							<div class="input-group mb-2">
@@ -25,20 +39,6 @@
 								</div>
 							</div>	
 						</div>
-						<div class="form-group">
-							<div class="input-group mb-2">
-								<select class="form-control" id="product-category" name="product-category">
-									<option selected disabled>Categoria</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-									<option>5</option>
-								</select>
-								<div class="input-group-prepend">
-									<div class="input-group-text"><a href="javascript:void(0);" class="material-icons text-decoration-none" data-toggle="modal" data-target="#create-product">add</a> </div>
-								</div>
-							</div>	
-						</div>	 
 						<div class="form-group">
 							<textarea class="form-control" id="product-details" name="product-details" maxlength="250" rows="1" placeholder="Detalles del producto"></textarea>
 						</div> 				

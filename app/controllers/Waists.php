@@ -13,20 +13,19 @@
 		}
 
 		public function store(){
-			if($_SERVER['REQUEST_METHOD'] == "POST"  ){
-				$param = [
-					'user-name' 	=> trim($_POST['user-name']),
-					'user-lastname' => trim($_POST['user-lastname']),
-					'user-phone' 	=> trim($_POST['user-phone']),
-					'user-address' 	=> trim($_POST['user-address'])
-				];
-				if($this->userModel->addUser($param)){
-					redirect('users/index');
+			echo "IS inside";
+			if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['create-waist'])){
+				$param = ['waist-name' => trim($_POST['waist-name'])];
+
+				if($this->waistModels->addWaist($param)){
+					redirect('products/index'); 
+					echo "creado";
 				}
 				else{
 					die("FATAL ERROR");
 				}
+			}
 		}
-
-	}
+	}	
+	
 ?>
