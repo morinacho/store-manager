@@ -4,7 +4,12 @@
 		private  $userModel;
 
 		public function __construct(){
-			$this->userModel = $this->model('User');
+			if (!Controller::authenticated()){ 
+				redirect('home');
+			}
+			else{
+				$this->userModel = $this->model('User');
+			}
 		}
 
 		public function index(){
@@ -47,7 +52,7 @@
 			$param = [
 				'user' => $user
 			];
-			$this->view('users/user', $param);
+			$this->view('users/user-profile', $param);
 		}
 
 		public function edit(){}

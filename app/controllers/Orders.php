@@ -3,7 +3,12 @@
 	class Orders extends Controller{
 		
 		public function __construct(){
-			$this->view("orders/index");
+			if (!Controller::authenticated()){ 
+				redirect('home');
+			}
+			else{ 
+				$this->view("orders/index"); 
+			}
 		}
 
 		public function index(){}

@@ -3,10 +3,10 @@
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalCenterTitle">Agregar nuevo cliente</h5>
+				<h5 class="modal-title" id="exampleModalCenterTitle">Agregar cliente</h5>
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
 			</div>
-			<form action="<?php echo URL_ROUTE ?>users/store"" method="post" target="_top">
+			<form action="<?php echo URL_ROUTE ?>users/store" method="post"  enctype="multipart/form" target="_top">
 				<div class="modal-body row">
 					<div class="col-6">
 						<div class="form-group">
@@ -20,7 +20,7 @@
 						</div>
 						<div class="form-group">
 							<input type="text" class="form-control" id="user-address" name="user-address" placeholder="Direccion"> 
-					</div>
+						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-group">

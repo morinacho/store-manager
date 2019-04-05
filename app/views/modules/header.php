@@ -13,10 +13,9 @@
 		<link rel="stylesheet" href="<?php echo URL_ROUTE ?>/fonts/fonts.css">
 	</head>
 	<body>
-		<div class="container-fluid">
-			<header>
-				<?php require_once APP_ROUTE . '/views/modules/nav.php'; ?>
-			</header>	
-		</div>
-		<div class="container">
-				
+			<div class="container-fluid">
+				<header>
+					<?php require_once APP_ROUTE . '/views/modules/nav.php'; ?>
+				</header>	
+			</div>
+			<div class="container">

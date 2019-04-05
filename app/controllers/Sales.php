@@ -4,6 +4,7 @@
 		
 		public function __construct(){
 			$this->view("sales/index");
+			if (!Controller::authenticated()){ redirect('home');}
 		}
 
 		public function index(){}

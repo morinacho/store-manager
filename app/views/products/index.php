@@ -26,7 +26,7 @@
 							<i class="material-icons">vertical_align_top</i>
 						</div>
 						<div class="btn-group btn-group-sm" role="group" aria-label="Third group">
-							<a href="javascript:void(0);" class="material-icons" data-toggle="modal" data-target="#create-user">person_add</a> 
+							<a href="javascript:void(0);" class="material-icons text-decoration-none" data-toggle="modal" data-target="#create-product">add_circle</a> 
 						</div>
 					</div>			
 				</div>

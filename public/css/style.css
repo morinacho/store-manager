@@ -1,5 +1,5 @@
 body{
-	color: #444444;
+	color: #444444; 
 }
 .home-content{
 	background-color: #def9f4;
@@ -32,3 +32,15 @@ body{
 	height: 150px;
 	width: 150px;
 } 
+#product-pic{
+	background-image: url("../images/image-not-available.png");
+	background-size: cover;
+	border: 1px black solid;
+	height: 150px;
+	width: 150px;
+} 
+
+textarea{
+	resize: none;	
+}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#deefff+0,98bede+100;Blue+3D+%2310 */

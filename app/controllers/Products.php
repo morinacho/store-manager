@@ -2,16 +2,26 @@
 
 	class Products extends Controller{
 		private $productModel;
+		private $waistModel;
 
 		public function __construct(){
-			$this->productModel = $this->model('Product');
+			
+			if (!Controller::authenticated()){ 
+				redirect('home');
+			}
+			else{
+				$this->productModel = $this->model('Product');
+				$this->waistModel	= $this->model('Waist');
+			}
 		}
 
 		public function index(){ 
-			// Get products
+			# Get products and wasit
 			$products = $this->productModel->getProducts();
-			$param = [
-				'products' => $products
+			$waist 	  = $this->waistModel->getWaists(); 
+			$param    = [
+				'products' => $products,
+				'waist'	   => $waist
 			];
 			$this->view('products/index', $param);
 		}

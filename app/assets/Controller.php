@@ -18,6 +18,16 @@
 				die('ERROR');
 			}
 		}
+		
+		public static function authenticated(){
+			session_start();
+			if (!isset($_SESSION['user'])){
+			    return false;
+			}
+			else{
+				return true;
+			}
+		}
 	}
 
 ?>

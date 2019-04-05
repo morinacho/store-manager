@@ -8,10 +8,10 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
-	<div class="collapse navbar-collapse" id="navbarToggle">
+	<div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
 
 		<!-- Menu -->
-		<ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+		<ul class="navbar-nav mt-2 mt-lg-0">
 			<li class="nav-item ml-3 active">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>">Home<span class="sr-only">(current)</span></a>
 			</li>
@@ -27,9 +27,28 @@
 			<li class="nav-item ml-3">
 				<a class="nav-link" href="<?php echo URL_ROUTE ?>orders">Encargos</a>
 			</li>
+
+			<!-- Notification -->
+			<li class="nav-item dropdown ml-4">
+				<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="material-icons">notifications</span></a>
+				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">None</a>
+				</div>
+			</li>
+
+			<!-- Menu -->
+			<li class="nav-item dropdown ml-1">
+				<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="material-icons">settings</span></a>
+				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Metricas</a>
+					<a class="dropdown-item" href="#">Configuración</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="<?php echo URL_ROUTE ?>auth/logout"">Salir</a>
+				</div>
+			</li>
 		</ul>
 
-		<!-- Search -->
+		<!-- Search 
 		<form class="form-inline my-2 my-lg-0">
 			<div class="input-group mb-0">
 				<input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -38,5 +57,6 @@
 				</div>
 			</div>
 		</form>
+		-->
 	</div>
 </nav> 
